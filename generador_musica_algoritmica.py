@@ -1,3 +1,15 @@
+
+#1. 🎹 Generador de Secuencias Musicales - Crea melodías usando patrones matemáticos y algoritmos
+#2. 🎵 Múltiples Modos de Generación:
+#• Modo Aleatorio: Notas completamente al azar
+#• Modo Escala: Sigue escalas musicales (Mayor, Menor, Pentatónica)
+#• Modo Fibonacci: Usa la serie de Fibonacci para intervalos
+#• Modo Sinusoidal: Genera notas basadas en ondas senoidales
+#3. 🎶 Análisis Musical - Calcula características como duración, rango tonal, complejidad
+#4. 💾 Exportación a Audio - Guarda las secuencias como archivos WAV usando síntesis de sonido
+#5. 📊 Visualización - Muestra gráficos de las notas generadas en el tiempo
+#6. 🎚 Parámetros Personalizables - Tempo, tonalidad, duración, estilo
+
 import random
 import numpy as np
 from midiutil import MIDIFile
